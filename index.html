@@ -1,1 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | 花壇びより</title>
+<meta name="description" content="アプリ「花壇びより」のプライバシーポリシー。庭や記録は端末の中だけに保存します。広告（Google AdMob）とアプリ内課金での情報の扱いも説明します。">
+<meta name="theme-color" content="#FFF7E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1F1A16" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #FFF7E9;      /* クリーム（アプリの朝の庭） */
+    --card: #FFFFFF;
+    --ink: #3A2A1E;     /* 焦げ茶 */
+    --ink-sub: #6B5A48;
+    --line: #E8D9C2;
+    --accent: #B8431F;  /* コーラルを濃くした色（白地で 5:1 以上） */
+    --leaf: #4F7A3A;
+    --soft: #FDE7C5;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1F1A16; --card: #29221C; --ink: #F5ECDF; --ink-sub: #D2C4B2;
+      --line: #4A3F35; --accent: #F2A07F; --leaf: #A8CF8E; --soft: #3A2F25;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1F1A16; --card: #29221C; --ink: #F5ECDF; --ink-sub: #D2C4B2;
+    --line: #4A3F35; --accent: #F2A07F; --leaf: #A8CF8E; --soft: #3A2F25;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 17px; line-height: 1.9;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; word-break: break-all; }
+  a:focus-visible { outline: 3px solid var(--leaf); outline-offset: 3px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  .site-head { border-bottom: 1px solid var(--line); }
+  .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
+  .brand { color: var(--ink); text-decoration: none; font-weight: 800; font-size: 19px; }
+  .brand::before { content: "✿ "; color: var(--accent); }
+  nav a { font-weight: 700; text-decoration: none; font-size: 16px; }
+  main { padding: 24px 0 56px; }
+  .app { margin: 0; color: var(--leaf); font-weight: 700; }
+  h1 { font-size: clamp(26px, 6vw, 34px); line-height: 1.35; margin: 4px 0 6px; }
+  .date { color: var(--ink-sub); font-size: 15px; margin: 0 0 20px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 14px; border-top: 1px solid var(--line); }
+  h3 { font-size: 17px; margin: 20px 0 4px; }
+  ul { padding-left: 1.3em; }
+  li { margin: 4px 0; }
+  .summary { background: var(--soft); border-radius: 16px; padding: 14px 18px; margin: 0 0 20px; }
+  .summary p { margin: 0 0 4px; font-weight: 700; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; background: var(--card); }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--ink-sub); font-size: 14px; }
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./">花壇びより</a>
+    <nav aria-label="サイト内"><a href="support.html">サポート</a></nav>
+  </div>
+</header>
 
+<main>
+  <div class="wrap">
+    <p class="app">花壇びより</p>
+    <h1>プライバシーポリシー</h1>
+    <p class="date">制定日：2026年9月30日</p>
+
+    <section class="summary" aria-label="要約">
+      <p>かんたんに言うと：</p>
+      <ul>
+        <li>氏名やメールアドレスなどの個人情報を、開発者が集めることはありません。アカウント登録もありません。</li>
+        <li>庭や遊んだ記録は、あなたの端末の中だけに保存します。</li>
+        <li>無料で続けるため、Google の広告（AdMob）を表示します。広告のために、広告IDなどの情報が Google に送られます。</li>
+        <li>パズルを遊んでいる間は、広告を出しません。広告は買い切りの課金で消せます。</li>
+      </ul>
+    </section>
+
+    <p>KOHEI MINOSHIMA（以下「開発者」）は、スマートフォン用アプリ「花壇びより」（以下「本アプリ」）における利用者の情報の取り扱いについて、次のとおり定めます。</p>
+
+    <h2>1. 開発者が集める情報</h2>
+    <p>本アプリは、利用者の氏名、メールアドレス、電話番号などの個人情報を、開発者が収集することはありません。アカウント登録やログインの機能はなく、開発者のサーバーもありません。アクセス解析やクラッシュ収集のツールも組み込んでいません。</p>
+    <p>ただし、無料で提供を続けるため、本アプリには Google LLC の広告配信サービス「Google AdMob」を組み込んでいます。AdMob は「8. 広告について」に書いた情報を取得します。</p>
+
+    <h2>2. 端末の中に保存する情報</h2>
+    <p>本アプリは、遊ぶために必要な次の情報を、<strong>利用者の端末の中だけ</strong>に保存します。これらの情報が、開発者や第三者に送られることはありません。</p>
+    <ul>
+      <li>庭の状態（植えた花、たね、しずく、どんぐり、飾り、レベル、庭の名前、図鑑・押し花帳の記録）</li>
+      <li>パズル（花壇ならべ・じょうろ算）の記録（日付、クリアの有無、タイム、ヒントの回数）、連続日数、おひるねクッション</li>
+      <li>設定（効果音・BGM、お知らせのオン・オフ、大きな文字、動きを減らす など）</li>
+      <li>インストールした日、広告を表示した日時と回数（広告の回数を制限するため）、広告についての説明を表示したかどうか</li>
+      <li>広告を消す購入をしたかどうか</li>
+      <li>保存データが壊れたときに庭を元に戻すための、1つ前の保存データ</li>
+    </ul>
+    <p>これらの情報は、端末の OS の機能（iCloud バックアップ、Android のバックアップなど）によって、利用者自身のバックアップに含まれることがあります。バックアップの扱いは、各 OS の提供元の方針に従います。</p>
+
+    <h2>3. 情報の削除</h2>
+    <p>本アプリを端末から削除（アンインストール）すると、本アプリが端末に保存した情報はすべて削除されます。削除した記録は元に戻せません。広告を消す購入は、再インストール後に「せってい」→「購入を 復元」で戻せます。</p>
+    <p>Google が取得した広告の情報については、「8. 広告について」に書いた方法で、広告IDのリセットや削除、パーソナライズ広告のオフができます。</p>
+
+    <h2>4. 写真とシェア</h2>
+    <p>庭の写真、花言葉カード、パズルの結果の文は、本アプリが端末の中で作ります。「シェア」を押すと端末のシェア機能が開き、送る内容と送り先は利用者が選びます。送った後の情報の扱いは、送り先のアプリやサービスの方針に従います。本アプリが自動で送ることはありません。本アプリは、端末の写真やカメラ、連絡先、位置情報（GPS）にはアクセスしません。</p>
+
+    <h2>5. お知らせ（通知）</h2>
+    <p>本アプリは、庭に変化がある日（花が咲いた朝など）に、毎朝8時ごろのお知らせを、端末の中だけで予約して表示します（ローカル通知）。通知のために情報を外部に送ることはありません。お知らせを受け取るかどうかは、はじめて芽が出たときに選べ、本アプリの「せってい」または端末の設定でいつでも変えられます。</p>
+
+    <h2>6. 子どもの利用</h2>
+    <p>本アプリは、大人の方に向けて作っており、13歳未満の子どもを対象にしていません。広告は、どなたが見ても問題のない内容（一般向け：G 相当）に限って表示します。</p>
+
+    <h2>7. 第三者への提供</h2>
+    <p>開発者は、利用者の個人情報を第三者に提供しません。ただし、「8. 広告について」「11. 外部送信について」に書いたとおり、広告のために、利用者の端末から Google に情報が送られます。</p>
+
+    <h2 id="ads">8. 広告について</h2>
+    <p>本アプリは、広告の表示に Google AdMob を使います。広告は次の場面だけに表示します。<strong>花壇ならべ・じょうろ算を遊んでいる間は表示しません。</strong>画面の下に出るバナー広告はありません。</p>
+    <ul>
+      <li>利用者が自分で選んだとき：しずく、ふしぎな種、どんぐり2倍、おひるねクッションを受け取るために「広告を 見る」を選んだ場合（動画など）</li>
+      <li>全画面の広告：その日のパズルを終えて庭に戻るとき、1日1回まで。インストールしてから3日間と、記念の日（連続日数の節目、レベルアップした日など）には表示しません。</li>
+    </ul>
+    <p>インストールした日は、広告の仕組みを起動しません。</p>
+    <p>AdMob は、広告の配信、効果の測定、不正の防止のため、次の情報を取得することがあります。</p>
+    <ul>
+      <li>広告ID（iPhone の IDFA、Android の広告ID）、アプリごとの識別子（Android の App Set ID など）</li>
+      <li>IPアドレス（おおよその地域の推定に使われることがあります）</li>
+      <li>広告の表示やタップ、動画の視聴などの操作の情報</li>
+      <li>端末の種類、OS のバージョンなどの技術的な情報、アプリや広告の動作に関する診断情報（起動時間、クラッシュなど）</li>
+    </ul>
+    <h3>パーソナライズ広告について</h3>
+    <ul>
+      <li>iPhone では、インストールの翌日以降に、本アプリの説明を表示したあとで、端末の「トラッキングの許可」の確認を出します。利用者が「許可」した場合に限り、IDFA を使った広告の最適化（パーソナライズ広告）を行います。許可しなくても、本アプリはすべて同じように使えます。許可は、端末の「設定」→「プライバシーとセキュリティ」→「トラッキング」からいつでも変えられます。</li>
+      <li>Android では、端末の「設定」→「プライバシー」→「広告」（機種により「Google」→「広告」）から、広告IDの削除やリセットができます。</li>
+      <li>欧州経済領域（EEA）、英国、スイスの利用者には、Google の同意管理の仕組みで、情報の利用について同意をうかがいます。本アプリの「せってい」→「プライバシー設定（広告）」から、いつでも選択を変えられます。</li>
+      <li>広告を消す購入をした場合、本アプリは広告の仕組みを起動せず、広告のための情報も送りません。</li>
+    </ul>
+    <h3>不適切な広告の報告</h3>
+    <p>不適切な広告や、年齢に合わない広告を見かけたときは、広告の［i］や［×］から Google に報告できます。「12. お問い合わせ」の連絡先から、開発者にもお知らせください。</p>
+    <p>Google による情報の扱いは、次をご覧ください。</p>
+    <ul>
+      <li>Google のプライバシーポリシー：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      <li>Google のパートナーのサイトやアプリからの情報の利用：<a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+      <li>広告の設定（パーソナライズ広告のオフ）：<a href="https://myadcenter.google.com/">https://myadcenter.google.com/</a></li>
+    </ul>
+
+    <h2>9. アプリ内課金について</h2>
+    <p>本アプリでは、広告を消すオプション（買い切り）を販売します。購入すると、全画面の広告が出なくなり、しずくなどのごほうびも広告なしで受け取れます。購入しなくても、すべての機能は無料で使えます。</p>
+    <p>購入の手続きと支払いは、Apple（App Store）または Google（Google Play）が行います。開発者が、クレジットカードの番号などの支払いの情報を受け取ることはありません。購入の状態は各ストアの仕組みで確かめ、その結果を端末の中だけに記録します（開発者のサーバーには送りません）。</p>
+
+    <h2>10. このポリシーの変更</h2>
+    <p>開発者は、必要に応じてこのポリシーを変更します。情報の扱いが変わる場合は、アプリの更新の前に、このページで変更の内容と改訂日をお知らせします。</p>
+
+    <h2 id="external">11. 外部送信について</h2>
+    <p>本アプリは、次のとおり、利用者の端末から外部に情報を送信します（利用者に関する情報の外部送信の公表）。</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">送信先</th><th scope="col">送信される情報</th><th scope="col">目的</th></tr></thead>
+        <tbody>
+          <tr><td>Google LLC（Google AdMob、同意管理の仕組みを含む）</td><td>広告ID・アプリごとの識別子、IPアドレス、端末と OS の情報、広告の表示・操作の情報、診断情報、同意の選択</td><td>広告の配信、広告の効果の測定、不正な利用の防止、同意の管理</td></tr>
+          <tr><td>Apple Inc.（App Store）／Google LLC（Google Play）</td><td>購入と購入の復元の手続きに必要な情報（各ストアの仕組みで送られます）</td><td>アプリ内課金の処理</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="contact">12. お問い合わせ</h2>
+    <ul>
+      <li>開発者：KOHEI MINOSHIMA</li>
+      <li>メール：<a href="mailto:minoapp.vegas.rel@gmail.com">minoapp.vegas.rel@gmail.com</a></li>
+      <li><a href="support.html">サポート・よくある質問</a></li>
+    </ul>
+    <p>以上</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 KOHEI MINOSHIMA</div>
+</footer>
+</body>
+</html>

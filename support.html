@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | 花壇びより</title>
+<meta name="description" content="アプリ「花壇びより」のお問い合わせ先とよくある質問。">
+<meta name="theme-color" content="#FFF7E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1F1A16" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #FFF7E9; --card: #FFFFFF; --ink: #3A2A1E; --ink-sub: #6B5A48;
+    --line: #E8D9C2; --accent: #B8431F; --leaf: #4F7A3A; --soft: #FDE7C5;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1F1A16; --card: #29221C; --ink: #F5ECDF; --ink-sub: #D2C4B2;
+      --line: #4A3F35; --accent: #F2A07F; --leaf: #A8CF8E; --soft: #3A2F25;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1F1A16; --card: #29221C; --ink: #F5ECDF; --ink-sub: #D2C4B2;
+    --line: #4A3F35; --accent: #F2A07F; --leaf: #A8CF8E; --soft: #3A2F25;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 17px; line-height: 1.9;
+  }
+  a { color: var(--accent); text-underline-offset: 3px; word-break: break-all; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--leaf); outline-offset: 3px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  .site-head { border-bottom: 1px solid var(--line); }
+  .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
+  .brand { color: var(--ink); text-decoration: none; font-weight: 800; font-size: 19px; }
+  .brand::before { content: "✿ "; color: var(--accent); }
+  nav a { font-weight: 700; text-decoration: none; font-size: 16px; }
+  main { padding: 24px 0 56px; }
+  h1 { font-size: clamp(26px, 6vw, 34px); line-height: 1.35; margin: 4px 0 12px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .contact { background: var(--soft); border-radius: 16px; padding: 16px 18px; }
+  .contact p { margin: 4px 0; }
+  .mail { font-size: 19px; font-weight: 700; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 16px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+  details p { margin: 6px 0 4px; }
+  ul { padding-left: 1.3em; }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--ink-sub); font-size: 14px; }
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./">花壇びより</a>
+    <nav aria-label="サイト内"><a href="./">プライバシーポリシー</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>花壇びより サポート</h1>
+
+    <section class="contact" aria-label="お問い合わせ">
+      <p>お問い合わせ、ご意見、不具合のご報告は、次のメールアドレスまでお送りください。</p>
+      <p class="mail"><a href="mailto:minoapp.vegas.rel@gmail.com?subject=%E8%8A%B1%E5%A3%87%E3%81%B3%E3%82%88%E3%82%8A%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">minoapp.vegas.rel@gmail.com</a></p>
+      <p>お使いの端末の機種名と OS のバージョン、起きたことと日時を書いていただけると、早く対応できます。画面のスクリーンショットがあれば添えてください。</p>
+      <p>個人で開発しているため、お返事に数日かかることがあります。</p>
+    </section>
+
+    <h2>よくある質問</h2>
+
+    <details>
+      <summary>水やりを忘れたら、花は枯れますか？</summary>
+      <p>枯れません。何日かあいても、庭はそのまま待っています。また遊びに来たときに、続きから育てられます。</p>
+    </details>
+
+    <details>
+      <summary>きょうのパズルは、いつ切り替わりますか？</summary>
+      <p>端末の日付で、毎日0時に切り替わります。アプリを開いたままでも、しばらくすると新しい日になります。つぼみは、あしたの朝に咲きます。</p>
+    </details>
+
+    <details>
+      <summary>お知らせ（通知）が来ません。</summary>
+      <p>お知らせは、花が咲いた朝など、庭に変化がある日だけ、毎朝8時ごろに届きます。変化のない日は届きません。</p>
+      <p>届かないときは、アプリの「せってい」でお知らせがオンになっているか、端末の「設定」→「通知」→「花壇びより」で通知が許可されているかをご確認ください。</p>
+    </details>
+
+    <details>
+      <summary>文字を大きくしたい。</summary>
+      <p>アプリの「せってい」→「大きな文字」をオンにしてください。端末の文字の大きさの設定も、読みやすい範囲で反映されます。大きな文字のときは、花壇ならべの盤面は 7×7 までになります。</p>
+    </details>
+
+    <details>
+      <summary>広告を消したい。購入を戻したい。</summary>
+      <p>「せってい」→「広告を けす（買い切り）」で購入できます。購入すると全画面の広告が出なくなり、しずくなどのごほうびも広告なしで受け取れます。</p>
+      <p>機種変更や再インストールのあとは、同じ Apple アカウント（Android は同じ Google アカウント）で「せってい」→「購入を 復元」を押してください。</p>
+    </details>
+
+    <details>
+      <summary>「トラッキングを許可しますか？」と出ました。</summary>
+      <p>広告を、あなたの興味に近いものにしてよいかの確認です。「許可しない」を選んでも、庭はすべて同じように育てられます。あとから端末の「設定」→「プライバシーとセキュリティ」→「トラッキング」で変えられます。</p>
+    </details>
+
+    <details>
+      <summary>機種変更したら、庭を引き継げますか？</summary>
+      <p>庭の記録は端末の中だけに保存しています（アカウントやサーバーはありません）。端末のバックアップ（iPhone は iCloud バックアップ、Android は Google のバックアップ）から新しい端末を設定すると、庭も引き継がれます。アプリを削除すると、庭の記録も消えます。</p>
+    </details>
+
+    <details>
+      <summary>対応している端末は？</summary>
+      <p>iPhone（iOS 15 以降）です。Android 版は準備中です。</p>
+    </details>
+
+    <h2 id="report-ad">不適切な広告の報告</h2>
+    <p>不適切な広告や、年齢に合わない広告を見かけたときは、広告の［i］や［×］から Google に報告できます。上のメールアドレスにも、見かけた日時と広告の内容（分かれば広告主の名前やスクリーンショット）をお知らせください。広告は一般向け（G 相当）の内容に限る設定にしていますが、確認して設定を見直します。</p>
+
+    <h2>プライバシー</h2>
+    <p>情報の取り扱いは、<a href="./">プライバシーポリシー</a>をご覧ください。</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 KOHEI MINOSHIMA</div>
+</footer>
+</body>
+</html>
